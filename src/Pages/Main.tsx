@@ -1,10 +1,11 @@
 import React from 'react';
 import {Text, View} from 'react-native';
+import Profiles from './Profiles';
 
 function Main() {
   return (
-    <View>
-      <Text>Main Page</Text>
+    <View className="w-full h-full">
+      <Profiles />
     </View>
   );
 }
